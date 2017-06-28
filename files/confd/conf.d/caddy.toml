@@ -1,6 +1,0 @@
-[template]
-src = "Caddyfile.tmpl"
-dest = "/Caddyfile"
-keys = [
-    "CADDY_Host",
-]

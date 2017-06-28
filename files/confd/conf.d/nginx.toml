@@ -1,0 +1,6 @@
+[template]
+src = "nginx.tmpl"
+dest = "/etc/nginx/conf.d/default.conf"
+keys = [
+    "NGINX_PORT",
+]
