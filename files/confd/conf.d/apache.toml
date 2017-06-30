@@ -1,0 +1,6 @@
+[template]
+src = "apache.tmpl"
+dest = "/etc/apache2/sites-available/sogo.conf"
+keys = [
+    "APACHE_PORT",
+]

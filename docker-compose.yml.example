@@ -15,7 +15,7 @@ services:
             - MAIL_SOGoIMAPServer=imaps://imap.example.com:993
             - MAIL_SOGoSMTPServer=mail.example.com
             - MAIL_SOGoMailDomain=example.com
-            - NGINX_PORT=80
+            - APACHE_PORT=80
 
     postgres:
         image: postgres

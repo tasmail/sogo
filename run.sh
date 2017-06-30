@@ -9,7 +9,9 @@ service memcached start
 # Wait until postgres is up .. dirty :)
 sleep 5
 service sogo start
-nginx &
+a2enmod proxy proxy_http headers rewrite
+a2ensite sogo.conf
+service apache2 restart & 
 tail -f /var/log/sogo/sogo.log 
 # Keep running if everything fails
 tail -f /dev/null
